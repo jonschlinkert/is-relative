@@ -1,23 +1,16 @@
-/**
- * is-relative <https://github.com/jonschlinkert/is-relative>
- *
- * Copyright (c) 2014 Jon Schlinkert, contributors.
- * Licensed under the MIT license.
- */
-
 'use strict';
 
 /**
- * **Example**:
- *
  * ```js
  * var isRelative = require('is-relative');
- * isRelative('test/fixtures/docs/new/file.txt');
+ * isRelative('README.md');
  * //=> true
  * ```
  *
+ * @name isRelative
  * @param {String} `filepath` Path to test.
  * @return {Boolean}
+ * @api public
  */
 
 module.exports = function isRelative(filepath) {
