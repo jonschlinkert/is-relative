@@ -1,10 +1,39 @@
 {
   "name": "is-relative",
-  "version": "0.1.1",
+  "description": "Returns `true` if the path appears to be relative.",
+  "license": "MIT",
+  "keywords": [
+    "absolute",
+    "check",
+    "file",
+    "filepath",
+    "is",
+    "normalize",
+    "path",
+    "path.relative",
+    "relative",
+    "resolve",
+    "slash",
+    "slashes",
+    "uri",
+    "url"
+  ],
+  "authors": [
+    {
+      "name": "Jon Schlinkert",
+      "url": "https://github.com/jonschlinkert"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/is-relative.git"
+  },
   "main": [
     "index.js"
   ],
   "ignore": [
+    ".*",
+    "package.json",
     "test"
   ]
 }
