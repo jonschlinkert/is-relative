@@ -1,7 +1,21 @@
 {
   "name": "is-relative",
   "description": "Returns `true` if the path appears to be relative.",
+  "repository": "jonschlinkert/is-relative",
   "license": "MIT",
+  "homepage": "https://github.com/jonschlinkert/is-relative",
+  "authors": [
+    "Jon Schlinkert (https://github.com/jonschlinkert)"
+  ],
+  "main": [
+    "index.js"
+  ],
+  "dependencies": {
+    "is-unc-path": "^0.1.1"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
   "keywords": [
     "absolute",
     "check",
@@ -17,23 +31,5 @@
     "slashes",
     "uri",
     "url"
-  ],
-  "authors": [
-    {
-      "name": "Jon Schlinkert",
-      "url": "https://github.com/jonschlinkert"
-    }
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/is-relative.git"
-  },
-  "main": [
-    "index.js"
-  ],
-  "ignore": [
-    ".*",
-    "package.json",
-    "test"
   ]
 }
