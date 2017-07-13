@@ -31,5 +31,26 @@
     "slashes",
     "uri",
     "url"
+  ],
+  "version": "0.2.1",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/is-relative/issues"
+  },
+  "files": [
+    "index.js"
+  ],
+  "ignore": [
+    "actual",
+    "bower_components",
+    "fixtures",
+    "node_modules",
+    "temp",
+    "test",
+    "test.js",
+    "tmp"
+  ],
+  "contributors": [
+    "Jon Schlinkert (http://twitter.com/jonschlinkert)",
+    "Shinnosuke Watanabe (https://shinnn.github.io)"
   ]
 }

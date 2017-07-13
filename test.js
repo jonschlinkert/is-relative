@@ -1,12 +1,12 @@
 'use strict';
 
-/* deps: mocha */
+require('mocha');
 var assert = require('assert');
 var isRelative = require('./');
 
 describe('isRelative', function() {
   it('should throw an error when the value is not a string.', function() {
-    assert.throws(function () {
+    assert.throws(function() {
       isRelative();
     }, 'isRelative expects a string.');
   });
